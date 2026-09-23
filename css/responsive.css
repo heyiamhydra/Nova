@@ -1,0 +1,197 @@
+@media (max-width: 1820px) {
+  .whyus {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1548px) {
+  header {
+    padding: 16px 100px 32px 100px;
+  }
+
+  .whyus {
+    padding: 43px 100px;
+  }
+
+  .examples {
+    padding: 16px 100px;
+  }
+
+  footer {
+    padding: 16px 100px;
+  }
+}
+
+@media (max-width: 1348px) {
+  .whyuselements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .elements {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1140px) {
+  .footermenu {
+    display: none;
+  }
+}
+
+@media (max-width: 908px) {
+  .elements {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 764px) {
+  .whyuselements {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .elements {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  header {
+    padding: 16px 50px 32px 50px;
+  }
+
+  .whyus {
+    padding: 43px 50px;
+  }
+
+  .examples {
+    padding: 16px 50px;
+  }
+
+  footer {
+    padding: 16px 50px;
+  }
+}
+
+@media (min-width: 651px) {
+    .mobile-menu{
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+  header {
+    height: 300px;
+  }
+
+  menu {
+    display: none;
+  }
+
+  .headertexts {
+    gap: 10px;
+  }
+
+  .explanation {
+    display: none;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .modes {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 580px) {
+  .lastprojectstext {
+    font-size: 12px;
+  }
+
+  .examplefromus {
+    font-size: 16px;
+  }
+
+  .allprojects a {
+    font-size: 12px;
+  }
+
+  .footerlogo {
+    font-size: 16px;
+  }
+
+  .logotext {
+    font-size: 12px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .social-logos svg {
+    transform: scale(0.8);
+  }
+
+  .copyright svg {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 470px) {
+  header {
+    padding: 16px 20px 32px 20px;
+  }
+
+  .whyus {
+    padding: 43px 20px;
+  }
+
+  .examples {
+    padding: 16px 20px;
+  }
+
+  footer {
+    padding: 16px 20px;
+  }
+
+  .elementname {
+    font-size: 16px;
+  }
+
+  .elementtexts {
+    gap: 4px;
+  }
+
+  .elementtext {
+    font-size: 10px;
+  }
+
+  .card .name {
+    font-size: 12px;
+  }
+
+  .card .text {
+    font-size: 8px;
+  }
+
+  .logotext {
+    font-size: 8px;
+  }
+
+  .copyright {
+    font-size: 8px;
+  }
+}
